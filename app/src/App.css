@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font: helvetica;
-  background: #f5f5f5;
 }
 
 .list-container {
@@ -16,14 +15,15 @@
   margin: 2% 2%;
   border: 3px solid black;
   padding: 1%;
-  box-shadow: 0 4px 8px 0 black;
+  box-shadow: 0 4px 8px 0 #4e4f4f;
 }
 
 .globalHeader {
   border: 3px solid black;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   margin-bottom: 2%;
+  padding-bottom: 2%;
 }
 
 .global-container {
@@ -37,4 +37,5 @@
 
 .headerParagraph {
   width: 100%;
+  font-size: 1.25rem;
 }
